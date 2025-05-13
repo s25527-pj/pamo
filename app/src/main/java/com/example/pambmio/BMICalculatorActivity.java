@@ -1,5 +1,6 @@
 package com.example.pambmio;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -15,7 +16,7 @@ import androidx.appcompat.app.AppCompatActivity;
  * After input is provided, calculate BMI and show status to the user
  */
 
-public class MainActivity extends AppCompatActivity {
+public class BMICalculatorActivity extends AppCompatActivity {
 
     EditText weightInput, heightInput;
     Button calculateButton;
@@ -24,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_bmicalculator);
 
         weightInput = findViewById(R.id.weightInput);
         heightInput = findViewById(R.id.heightInput);
@@ -67,4 +68,15 @@ public class MainActivity extends AppCompatActivity {
 
         bmiResult.setText(String.format("BMI: %.2f\nStatus: %s", bmi, status));
     }
+
+    public void goToCalories(View view) {
+        Intent intent = new Intent(this, CaloriesCalculatorActivity.class);
+        startActivity(intent);
+    }
+
+    public void goToRecipes(View view) {
+        Intent intent = new Intent(this, RecipesActivity.class);
+        startActivity(intent);
+    }
+
 }

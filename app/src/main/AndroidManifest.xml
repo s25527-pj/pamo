@@ -12,11 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PamBMIo"
         tools:targetApi="31">
-        <activity
-            android:name=".MainActivity"
-            android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.PamBMIo">
+        <activity android:name=".RecipesActivity" />
+        <activity android:name=".CaloriesCalculatorActivity" />
+        <activity android:name=".BMICalculatorActivity" />
+        <activity android:name=".SplashActivity"
+            android:exported="true">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

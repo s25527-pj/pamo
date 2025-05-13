@@ -43,4 +43,12 @@
         libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
+    <string-array name="activity_levels">
+        <item>Niska (brak aktywności)</item>
+        <item>Lekka (1-3 dni w tygodniu)</item>
+        <item>Średnia (3-5 dni)</item>
+        <item>Wysoka (6-7 dni)</item>
+        <item>Bardzo wysoka (trening 2x dziennie)</item>
+    </string-array>
+
 </resources>
