@@ -11,7 +11,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Kalkulator zapotrzebowania kalorycznego"
+            android:text="@string/kalkulator_zapotrzebowania_kalorycznego"
             android:textSize="20sp"
             android:layout_marginBottom="16dp" />
 
@@ -19,14 +19,14 @@
             android:id="@+id/weight"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Waga (kg)"
+            android:hint="@string/waga_kg"
             android:inputType="numberDecimal" />
 
         <EditText
             android:id="@+id/height"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Wzrost (cm)"
+            android:hint="@string/wzrost_cm"
             android:inputType="numberDecimal"
             android:layout_marginTop="8dp" />
 
@@ -34,7 +34,7 @@
             android:id="@+id/age"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Wiek"
+            android:hint="@string/wiek"
             android:inputType="number"
             android:layout_marginTop="8dp" />
 
@@ -48,7 +48,7 @@
             android:id="@+id/calculateButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Oblicz kalorie"
+            android:text="@string/oblicz_kalorie"
             android:layout_marginTop="24dp" />
 
         <TextView
