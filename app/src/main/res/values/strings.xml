@@ -12,6 +12,7 @@
     <string name="wzrost_cm">Wzrost (cm)</string>
     <string name="wiek">Wiek</string>
     <string name="oblicz_kalorie">Oblicz kalorie</string>
+    <string name="lista_zakup_w">Lista zakupów</string>
 
     <string-array name="activity_levels">
         <item>Niska (brak aktywności)</item>

@@ -1,6 +1,8 @@
 package com.example.pambmio;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -42,6 +44,11 @@ public class RecipesActivity extends AppCompatActivity {
             return "Brak dopasowanych przepisów do tej kaloryczności.";
         }
     }
+
+    public void goToShoppingList(View view) {
+        startActivity(new Intent(this, ShoppingListActivity.class));
+    }
+
 }
 
 

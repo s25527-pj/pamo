@@ -15,5 +15,13 @@
             android:text=""
             android:textSize="16sp"
             android:lineSpacingExtra="8dp" />
+
+        <Button
+            android:id="@+id/shoppingListButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lista_zakup_w"
+            android:onClick="goToShoppingList"
+            android:layout_marginTop="24dp" />
     </LinearLayout>
 </ScrollView>
