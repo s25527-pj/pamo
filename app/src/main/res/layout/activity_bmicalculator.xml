@@ -60,5 +60,14 @@
             android:text="Zobacz przepisy"
             android:onClick="goToRecipes"
             android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/bmiChartButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pokaż wykres BMI"
+            android:onClick="goToChart"
+            android:layout_marginTop="16dp" />
+
     </LinearLayout>
 </ScrollView>

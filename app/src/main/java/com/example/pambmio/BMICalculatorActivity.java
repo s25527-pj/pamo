@@ -64,4 +64,10 @@ public class BMICalculatorActivity extends AppCompatActivity {
         intent.putExtra("calories", 2000); // Możesz zmienić na coś dynamicznego lub usunąć
         startActivity(intent);
     }
+
+    public void goToChart(View view) {
+        Intent intent = new Intent(this, BmiChartActivity.class);
+        startActivity(intent);
+    }
+
 }
